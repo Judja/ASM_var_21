@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define n 11 // кількість байтів у надвеликому числі
+#define n 11 // ГЄВіГ«ГјГЄВіГ±ГІГј ГЎГ Г©ГІВіГў Гі Г­Г Г¤ГўГҐГ«ГЁГЄГ®Г¬Гі Г·ГЁГ±Г«Ві
 
-typedef unsigned char byte; // для роботи з байтами використовується тип char
+typedef unsigned char byte; // Г¤Г«Гї Г°Г®ГЎГ®ГІГЁ Г§ ГЎГ Г©ГІГ Г¬ГЁ ГўГЁГЄГ®Г°ГЁГ±ГІГ®ГўГіВєГІГјГ±Гї ГІГЁГЇ char
 
 extern "C" bool Biggr(byte* M1, byte* M2, short len);
 
@@ -28,7 +28,7 @@ void PrintBinary(byte *number, short length)
 int main()
 {
 	srand(time(NULL));
-	byte x[n], y[n];//надвелике число
+	byte x[n], y[n];//Г­Г Г¤ГўГҐГ«ГЁГЄГҐ Г·ГЁГ±Г«Г®
 	bool f;
 	for (int i = 0; i<n; i++)
 	{
